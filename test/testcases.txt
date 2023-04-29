@@ -1,0 +1,19 @@
+Test Cases for Deployment of Contract MEMEKONG:
+
+Verify Contract Creation: Deploy the contract and verify that the contract is created successfully. --- DONE
+Verify Initial Token Minting: Verify that the initial tokens are minted and allocated correctly by checking the balance of the creator address and total supply. --- DONE
+Verify Token Name, Symbol, and Decimals: Verify that the token name, symbol, and decimals are set correctly by calling the corresponding getter functions. --- DONE
+Verify Token Transfer: Transfer some tokens from one address to another and verify that the balances of the sender and recipient are updated accordingly. --- DONE
+Verify Token Approval: Approve an allowance for a spender and verify that the allowance is updated correctly. --- DONE
+Verify Token Allowance: Verify that the allowance of a spender is returned correctly by calling the allowance function. --- DONE
+Verify Token Transfer From: Transfer some tokens from one address to another using the transferFrom function, and verify that the balances and allowances are updated correctly. --- DONE
+Verify Increase Allowance: Increase the allowance of a spender and verify that the allowance is updated correctly. --- DONE
+Verify Decrease Allowance: Decrease the allowance of a spender and verify that the allowance is updated correctly. --- DONE
+Verify Burn Tokens: Burn some tokens and verify that the total supply and the balance of the burner address are updated correctly.
+Verify Mint Tokens: Mint some tokens and verify that the total supply and the balance of the minted address are updated correctly.
+Verify Token Contract Admins: Verify that the contract admins are set correctly by calling the onlyAdmins modifier.
+Verify Stake Contract Functions: Verify that the stake contract functions are working correctly by calling the stake function and checking the staker mapping.
+Verify Uniswap Pool: Verify that the Uniswap pool address is set correctly.
+Verify Pool Burn Adjustment: Verify that the pool burn adjustment is set correctly.
+Verify Stake Minimum Length: Verify that the stake minimum length is set correctly.
+Verify Sync Lock: Verify that the contract uses a synchronized modifier to protect against potential reentrancy.
